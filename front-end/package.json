@@ -1,0 +1,30 @@
+{
+  "name": "behappywith.me",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "build": "NODE_ENV=production node_modules/webpack/bin/webpack.js"
+  },
+  "keywords": [],
+  "author": "Andre Furquim <andreccomputacao@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-toastify": "^2.0.0-rc.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "extract-text-webpack-plugin": "3.0.0",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.22.1",
+    "uglifyjs-webpack-plugin": "^1.3.0",
+    "webpack": "3.4.1",
+    "webpack-dev-server": "^2.5.0"
+  }
+}
